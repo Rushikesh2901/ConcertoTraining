@@ -1,0 +1,209 @@
+body {
+    background-color: green;
+}
+
+#div_7 {
+    width: 850px;
+    height: 550px;
+    margin: 50px auto;
+    background-image: radial-gradient(ellipse, yellow -50%, green);
+    position: relative;
+    border: 5px;
+    border-color: chocolate;
+    /* inear-gradient(to top,darkblue, darkorchid)1; */
+    border-style: solid;
+}
+
+#div_6 {
+    width: 844px;
+    height: 544px;
+    margin: 0px;
+    border: 3px;
+    position: absolute;
+    border-color: orange;
+    border-style: solid;
+}
+
+#div_5 {
+    width: 838px;
+    height: 538px;
+    margin: 0px;
+    border: 3px;
+    position: absolute;
+    border-color: yellow;
+    border-style: solid;
+}
+
+#div_4 {
+    width: 832px;
+    height: 532px;
+    margin: 0px;
+    border: 3px;
+    position: absolute;
+    border-color: green;
+    border-style: solid;
+}
+
+#div_3 {
+    width: 826px;
+    height: 526px;
+    margin: 0px;
+    border: 3px;
+    position: absolute;
+    border-color: blue;
+    border-style: solid;
+}
+
+#div_2 {
+    width: 819px;
+    height: 519px;
+    margin: 0px;
+    border: 3px;
+    position: absolute;
+    border-color: violet;
+    border-style: solid;
+}
+
+#div_1 {
+    width: 807px;
+    height: 507px;
+    margin: 0;
+    border: 6px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#line {
+    width: 0;
+    height: 504px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+#div_line {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#circle {
+    width: 350px;
+    height: 200px;
+}
+
+#center_line {
+    height: 501px;
+    margin-right: 50%;
+    margin-left: 50%;
+    border: 3px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#center_circle {
+    height: 150px;
+    width: 150px;
+    margin: 21.5% auto auto 40.9%;
+    border: 3px;
+    border-radius: 50%;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#inner_dot {
+    height: 4px;
+    width: 1px;
+    margin: 44% auto auto 43.5%;
+    border: 8px;
+    border-radius: 50%;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#l_half_rec {
+    height: 205px;
+    width: 100px;
+    margin: 19% auto auto -0.5%;
+    border: 3px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#r_half_rec {
+    height: 205px;
+    width: 105px;
+    margin: 19% auto auto 87%;
+    border: 3px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#l_inner_rec {
+    height: 100px;
+    width: 25px;
+    margin: 50% auto auto -0.5%;
+    border: 3px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#r_inner_rec {
+    height: 100px;
+    width: 25px;
+    margin: 50% auto auto 70%;
+    border: 3px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#l_inner_dot {
+    height: 1px;
+    margin: 90% auto auto 75%;
+    border: 8px;
+    border-radius: 50%;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#r_inner_dot {
+    height: 1px;
+    margin: 90% auto auto 10%;
+    border: 8px;
+    border-radius: 50%;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+#r_semi_cir {
+    height: 125px;
+    width: 50px;
+    margin: 23.5% auto auto 80.3%;
+    border: 3px;
+    border-radius: 125px 0 0 125px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+
+}
+
+#l_semi_cir {
+    height: 125px;
+    width: 50px;
+    margin: 23.5% auto auto 12.3%;
+    border: 3px;
+    border-radius: 0 125px 125px 0;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
