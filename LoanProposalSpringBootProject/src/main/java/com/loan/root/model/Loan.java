@@ -1,0 +1,60 @@
+package com.loan.root.model;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+
+import javax.persistence.Table;
+import com.loan.root.constant.LoanConstants;
+
+@Entity
+@Table(name= LoanConstants.LOANTABLE)
+public class Loan {
+	
+	@Id
+	@Column(name="loanId")
+	private String loanId;
+	
+	@Column(name="loanType")
+	private String loanType;
+	
+	@Column(name="loanAmount")
+	private double loanAmount;
+	
+	@Column(name="interestRate")
+	private double interestRate;
+	
+	@Column(name="period")
+	private double period;
+	
+	@Column(name="isApproval")
+	private boolean isApproval;
+	
+	@Column(name="remarks")
+	private String remarks;
+	
+	@Embedded
+	private List<Collateral> collaterals;
+	
+	@JsonIgnore
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "customerEmailId")
+	private Customer customer;
+	
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "employeeId")
+	private Employee employee;
+
+
+	
+}
